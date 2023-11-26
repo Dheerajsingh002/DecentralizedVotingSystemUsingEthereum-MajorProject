@@ -1,0 +1,166 @@
+.panel-container {
+    display: flex;
+  }
+  
+  .panel {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    z-index: 1; 
+  }
+  
+  .panel-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  span {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+    
+  }
+  
+  .panel-item:hover {
+    background-color: #555;
+  }
+  
+  .panel-item.active {
+    background-color: #555;
+  }
+  
+  .content-container {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 200px; 
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 7px 7px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 100%;
+  }
+  .content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+ .input-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.input-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.add-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+.panel-item.active {
+  background-color: #555;
+  color: #fff;
+}
+.fa {
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.register-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #45a049;
+}
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  ol{
+    list-style-type:none;
+  }
+  li {
+    margin-bottom: 10px; 
+  }
+  li::before {
+    content: "\2022"; 
+    color: #333;
+    display: inline-block;
+    width: 1em; 
+    margin-right: 0.5em; 
+  }
+  .change-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .change-button:hover {
+    background-color: #0056b3;
+  }
