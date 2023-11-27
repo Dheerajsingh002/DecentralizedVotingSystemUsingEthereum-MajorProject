@@ -12,25 +12,21 @@ import UserInfo from './components/UserInfo';
 function App() {
   return (
     <div className="App">
-      {/* <UserInfo/> */}
-      {/* <CandidateRegister/> */}
-      {/* <CandidateLogin/> */}
-      <CandidateDetail/>
-        {/* <BrowserRouter> */}
-        {/* <RegisterForm/> */}
-          {/* <Routes> */}
-          {/* <Route path="/" element={<FirstPage/>} />
+      
+        <BrowserRouter>
+          <Routes>
+          <Route path="/DecentralizedVotingSystemUsingEthereum-MajorProject" element={<FirstPage/>} />
           <Route path="/register" element={<RegisterForm />} />
-          <Route path="/login" element={<LoginForm/>} />  */}
-          {/* <Route path="/admin_login" element={<CandidateRegister/>} /> */}
-          {/* <Route path="/candidatelogin" element={<CandidateLogin/>} /> 
-          <Route path="/candidateregister" element={<CandidateRegister/>} />  */}
+          <Route path="/login" element={<LoginForm/>} /> 
+          <Route path="/admin_login" element={<CandidateRegister/>} />
+          <Route path="/candidatelogin" element={<CandidateLogin/>} /> 
+          <Route path="/candidateregister" element={<CandidateRegister/>} /> 
 
-          {/* </Routes>  */}
+          </Routes> 
         
-        {/* </BrowserRouter> */}
+        </BrowserRouter>
 
-      {/* <LoginForm/> */}
+
       
     </div>
   );

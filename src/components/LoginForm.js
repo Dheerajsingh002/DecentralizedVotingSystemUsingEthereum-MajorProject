@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import '../css/LoginForm.css'; 
+import '../css/LoginForm.css'; 
 
 const LoginForm = () => {
   const handleSubmit = (e) => {
@@ -12,6 +12,17 @@ const LoginForm = () => {
     <div className="container">
       <div className="forms-container">
         <div className="signin-signup">
+          {/* Move the image and text to the left */}
+          <div className="signup-image">
+            <img src={process.env.PUBLIC_URL + '/img/ev.png'} alt="Login page" />
+            <p>If you haven't signed up yet, please</p>
+            <Link to="/register">
+              <button className="btn transparent" id="sign-up-btn">
+                Signup
+              </button>
+            </Link>
+          </div>
+
           <form method="post" action="/login" onSubmit={handleSubmit}>
             <h2 className="title">Sign in</h2>
 
@@ -38,19 +49,6 @@ const LoginForm = () => {
             </div>
             <input type="submit" value="Login" className="btn solid" />
           </form>
-          <div className="signup-image">
-            {/* Add your image source */}
-            <img src={process.env.PUBLIC_URL + '/img/ev.png'} alt="Login page" />
-            <p>
-              If you haven't signed up yet, please
-            
-            </p>
-            <Link to="/register">
-              <button className="btn transparent" id="sign-up-btn">
-                Signup
-              </button>
-            </Link>
-          </div>
         </div>
       </div>
     </div>
