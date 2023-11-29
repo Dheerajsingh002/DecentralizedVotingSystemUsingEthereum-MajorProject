@@ -5,17 +5,16 @@ import '../css/LoginForm.css';
 const LoginForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add logic to handle form submission here
+    
   };
 
   return (
     <div className="container">
       <div className="forms-container">
         <div className="signin-signup">
-          {/* Move the image and text to the left */}
           <div className="signup-image">
             <img src={process.env.PUBLIC_URL + '/img/ev.png'} alt="Login page" />
-            <p>If you haven't signed up yet, please</p>
+            <b><p>If you haven't signed up yet, please</p></b>
             <Link to="/register">
               <button className="btn transparent" id="sign-up-btn">
                 Signup

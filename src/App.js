@@ -21,10 +21,11 @@ function App() {
           <Route path="/admin_login" element={<CandidateRegister/>} />
           <Route path="/candidatelogin" element={<CandidateLogin/>} /> 
           <Route path="/candidateregister" element={<CandidateRegister/>} /> 
-
           </Routes> 
-        
         </BrowserRouter>
+        
+        
+      
 
 
       

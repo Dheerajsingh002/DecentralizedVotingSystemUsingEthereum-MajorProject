@@ -70,9 +70,12 @@ const RegisterForm = () => {
           <div className="signup-image">
             {/* Add your image source */}
             <img src={process.env.PUBLIC_URL + '/img/home_page.png'} alt="Signup page" />
+            <b>
             <p>
               If you have already signed up, that's great!! Please LOGIN
             </p>
+            </b>
+           
             <Link to="/login">
               <button className="btn transparent" id="sign-up-btn">
                 Login
