@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/css/main.c15bd979.css",
-    "main.js": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/js/main.1c0b7a52.js",
+    "main.css": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/css/main.1645620c.css",
+    "main.js": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/js/main.8378e137.js",
     "static/js/787.ee04e7c1.chunk.js": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/js/787.ee04e7c1.chunk.js",
     "static/media/fa-solid-900.ttf": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/DecentralizedVotingSystemUsingEthereum-MajorProject/index.html",
-    "main.c15bd979.css.map": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/css/main.c15bd979.css.map",
-    "main.1c0b7a52.js.map": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/js/main.1c0b7a52.js.map",
+    "main.1645620c.css.map": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/css/main.1645620c.css.map",
+    "main.8378e137.js.map": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/js/main.8378e137.js.map",
     "787.ee04e7c1.chunk.js.map": "/DecentralizedVotingSystemUsingEthereum-MajorProject/static/js/787.ee04e7c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c15bd979.css",
-    "static/js/main.1c0b7a52.js"
+    "static/css/main.1645620c.css",
+    "static/js/main.8378e137.js"
   ]
 }
